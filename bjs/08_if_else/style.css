@@ -1,4 +1,101 @@
+body {
+   background-image: url("image/GuessTheNumber.png"); 
+}
+
+.modalMess, .modalInfo, .modalInput {
+    width: 410px;
+    border: 1px solid black;
+    border-radius:  20px;
+    padding: 0;
+}
+
+.modalMess, .modalInput {
+    height: 300px;
+}
+
+.inpHeader {
+    text-align: center;
+    background-color: orange;
+    border-bottom: 1px solid black;
+}
+
+#inputNumber, #inputNumber1 {
+    width: 350px;  
+}
+
+.modalInfo {
+    height: 200px;
+}
+
+.mesHeader,
+.infoHeader { 
+    width: 398px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.mesHeader{
+    background-color:rgb(244, 33, 184);
+}
+
+.infoHeader {
+        background-color:rgb(216, 245, 172) 
+}   
+
+form {
+    margin: 20px;
+}
+
+.modalMess {
+    background-color:aquamarine;
+}
+
+.modalInfo {
+    background-color:bisque;
+}
+
+.isOpen {
+    display: block;
+}
+
+.okMessage,
+.okInfo {
+    border-radius: 10px;
+    margin-left: 30%;
+    width: 150px;
+    background-color: rgb(213, 244, 244);
+    box-shadow: 5px 5px 0.6px black;
+}
+
 .game-card {
     height: 100vh;
     font-family: 'Open Sans', monospace;
 }
+.card-header,
+.card-footer {
+    background-color: gainsboro;
+}
+
+.card-body {
+    background-color: aqua;
+}
+
+#btnLess {
+    border-radius:  100px 0 0 100px ;
+}
+
+#btnOver {
+    border-radius:  0 100px 100px 0 ;
+}
+
+#btnLess,
+#btnOver {
+    background-color:deeppink; 
+}
+
+.card {
+    box-shadow: 15px 15px 3px black;
+}
+
