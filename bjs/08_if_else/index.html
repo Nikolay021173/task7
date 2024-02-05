@@ -7,8 +7,44 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="smoke-pure.css" type="text/css"/>
 </head>
 <body>
+    <dialog class="modalInput">
+        <div class="inpHeader">
+            <h3>&#10022; &#10022; &#10022;</h3>
+        </div>
+        <form id="form">
+            <label for="inputNamber">Минимальное знание числа для игры</label>
+            <input type="text" id="inputNumber" name="inpMin"><br><br>
+            <label for="inputNamber1">Максимальное знание числа для игры</label>
+            <input type="text" id="inputNumber1"><br><br>
+            <button class="okInput">ОК</button>
+            <button class="delValueInput">Отмена</button>
+        </form>
+    </dialog>
+    
+    <dialog class="modalMess">
+        <div class="mesHeader">
+            <h3>&#9888; Предупреждение!</h3>
+        </div>
+        <form>
+            <p class="message"></p>
+            <button class="okMessage">ОК</button>
+        </form>
+    </dialog>
+
+    <dialog class="modalInfo">
+        <div class="infoHeader">
+            <h3>&#10022; Начать игру &#10022;</h3>
+        </div>
+        <form>
+            <p class="info"></p>
+            <button class="okInfo">ОК</button>
+        </form>
+    </dialog>
+
+
 <div class="container">
     <div class="row game-card align-items-center">
         <div class="col col-md-4 offset-md-4">
@@ -37,6 +73,8 @@
         </div>
     </div>
 </div>
+
 <script src="script.js"></script>
+
 </body>
 </html>
