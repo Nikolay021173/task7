@@ -1,0 +1,42 @@
+body {  
+  background-image: url("image/generOfPersonData.jpg"); 
+}
+
+.container {
+   margin-top: 12%; 
+}
+
+.card-header {
+    background-color: rgb(215, 98, 122);
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.card-body {
+    background-color:rgb(187, 227, 213);
+    border: 3px solid black;
+}
+
+.m-0 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#birthDayOutput,
+#birthMonthOutput,
+#birthYearOutput,
+#genderOutput,
+#yearBirth {
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(83, 192, 243);
+    border-radius: 30px;
+    width: 170px;
+    height: 40px;
+    margin: 0 25px;
+    font-size: 20px;
+    box-shadow: 5px 5px 0.6px black;
+}
